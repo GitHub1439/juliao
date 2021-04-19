@@ -1,0 +1,503 @@
+{
+    "pages": [
+        {
+            "path": "pages/index/launch",
+            "style": {
+                "navigationBarTitleText": "",
+                "app-plus": {
+                    "titleNView": {
+                        "type": "transparent"
+                    },
+                    "bounce": "none"
+                }
+            }
+        },
+        {
+            "path": "pages/faxian/index",
+            "style": {
+                "navigationBarTitleText": "发现",
+                "app-plus": {
+                    "titleNView": {
+                        "type": "transparent"
+                    },
+                    "bounce": "none"
+                }
+            }
+        },
+		{
+		    "path": "pages/card/index",
+		    "style": {
+		        "navigationBarTitleText": "管理卡",
+		        "navigationBarBackgroundColor": "#FFFFFF",
+		        "navigationBarTextStyle": "black",
+		        "app-plus": {
+		            "titleNView": {
+		                "buttons": [
+		                    {
+		                        "text": "\ue8e1",
+		                        "fontSize": "20",
+		                        "fontSrc": "static/iconfont.ttf",
+		                        "name": "add"
+		                    }
+		                ]
+		            },
+		            "bounce": "none"
+		        }
+		    }
+		},
+		{
+		    "path": "pages/card/add",
+		    "style": {
+		        "navigationBarTitleText": "添加卡",
+		        "app-plus": {
+		            "bounce": "none"
+		        }
+		    }
+		},
+		{
+		    "path": "pages/mine/order",
+		    "style": {
+		        "navigationBarTitleText": "账单",
+		        "app-plus": {
+		            "bounce": "none"
+		        }
+		    }
+		},
+		{
+		    "path": "pages/mine/webView",
+		    "style": {
+		        "navigationBarTitleText": "",
+		        "app-plus": {
+		            "titleNView": {
+		                "type": "transparent"
+		            },
+		            "bounce": "none"
+		        }
+		    }
+		},
+		{
+		    "path": "pages/packet/detail",
+		    "style": {
+		        "navigationBarTitleText": "",
+		        "navigationBarBackgroundColor": "#f35543",
+		        "navigationBarTextStyle": "white",
+		        "app-plus": {
+		            "titleNView": {
+		                "titleColor": "#fdd894",
+		                "backgroundColor": "#f35543",
+		                "buttons": [
+		                    {
+		                        "text": "红包记录",
+		                        "fontSize": "18px",
+		                        "width": "auto"
+		                    }
+		                ]
+		            },
+		            "bounce": "none"
+		        }
+		    }
+		},
+		{
+		    "path": "pages/index/newfriend",
+		    "style": {
+		        "navigationBarTitleText": "新朋友",
+		        "app-plus": {
+		            "bounce": "none"
+		        }
+		    }
+		},
+        {
+            "path": "pages/login/index",
+            "style": {
+                "navigationBarTextStyle": "white",
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": false,
+                    "bounce": "none"
+                }
+            }
+        },
+        {
+            "path": "pages/mine/profile",
+            "style": {
+                "navigationBarTitleText": "个人资料",
+                "app-plus": {
+                    "bounce": "none"
+                }
+            }
+        },
+        {
+            "path": "pages/notice/applies",
+            "style": {
+                "navigationBarTitleText": "申请列表",
+                "app-plus": {
+                    "bounce": "none"
+                }
+            }
+        },
+        {
+            "path":"pages/packet/status",
+            "style": {
+                "navigationBarTitleText":"",
+                "app-plus": {
+                    "bounce":"none"
+                }
+            }
+        },
+        {
+            "path": "pages/mine/qrcode",
+            "style": {
+                "navigationBarTitleText": "用户二维码",
+                "app-plus": {
+                    "bounce": "none"
+                }
+            }
+        },
+        {
+            "path": "pages/index/form",
+            "style": {
+                "navigationBarTitleText": "",
+                "app-plus": {
+                    "bounce": "none"
+                }
+            }
+        },
+        {
+            "path": "pages/group/edit",
+            "style": {
+                "navigationBarTitleText": "编辑群聊信息",
+                "app-plus": {
+                    "bounce": "none"
+                }
+            }
+        },
+        {
+            "path": "pages/group/qrcode",
+            "style": {
+                "navigationBarTitleText": "群聊二维码",
+                "app-plus": {
+                    "bounce": "none",
+                    "titleNView": {
+                        
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/group/create",
+            "style": {
+                "navigationBarTitleText": "发起群聊",
+                "app-plus": {
+                    "bounce": "none"
+                }
+            }
+        },
+        {
+            "path": "pages/contacts/index",
+            "style": {
+                "navigationBarTitleText": "通讯录",
+                "app-plus": {
+                    "titleNView": {
+                        "buttons": [
+                            {
+                                "text": "\ue8e1",
+                                "fontSize": "20",
+                                "fontSrc": "static/iconfont.ttf"
+                            }
+                        ]
+                    },
+                    "bounce": "none"
+                }
+            }
+        },
+        {
+            "path": "pages/packet/logs",
+            "style": {
+                "navigationBarTitleText": "红包记录",
+                "navigationBarTextStyle": "white",
+                "app-plus": {
+                    "titleNView": {
+                        "titleColor": "#fdd894",
+                        "backgroundColor": "#f35543"
+                    },
+                    "bounce": "none"
+                }
+            }
+        },
+        {
+            "path": "pages/packet/group_logs",
+            "style": {
+                "navigationBarTitleText": "红包记录",
+                "navigationBarTextStyle": "white",
+                "app-plus": {
+                    "titleNView": {
+                        "titleColor": "#fdd894",
+                        "backgroundColor": "#f35543"
+                    },
+                    "bounce": "none"
+                }
+            }
+        },
+        {
+            "path": "pages/friend/detail",
+            "style": {
+                "navigationBarTitleText": "",
+                "app-plus": {
+                    "bounce": "none"
+                }
+            }
+        },
+        {
+            "path": "pages/mine/password",
+            "style": {
+                "navigationBarTitleText": "",
+                "app-plus": {
+                    "bounce": "none"
+                }
+            }
+        },
+        {
+            "path": "pages/mine/feedback",
+            "style": {
+                "navigationBarTitleText": "意见反馈",
+                "app-plus": {
+                    "bounce": "none"
+                }
+            }
+        },
+        {
+            "path": "pages/member/pay",
+            "style": {
+                "navigationBarTitleText": "付款",
+                "app-plus": {
+                    "bounce": "none"
+                }
+            }
+        },
+        {
+            "path": "pages/packet/create",
+            "style": {
+                "navigationBarTitleText": "发红包",
+                "app-plus": {
+                    "bounce": "none"
+                }
+            }
+        },
+        {
+            "path": "pages/friend/chat",
+            "style": {
+                "navigationBarTitleText": "私聊",
+				"enablePullDownRefresh": false,
+                "app-plus": {
+                    "bounce": "none",
+                    "titleNView": {
+                        "buttons": [
+                            {
+                                "text": "\ue604",
+                                "fontSize": "20",
+                                "fontSrc": "static/iconfont.ttf"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/group/chat",
+            "style": {
+                "navigationBarTitleText": "群聊",
+                "app-plus": {
+                    "bounce": "none",
+                    "titleNView": {
+                        "buttons": [
+                            {
+                                "text": "\ueb9f",
+                                "fontSize": "20",
+                                "fontSrc": "static/iconfont.ttf"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/group/detail",
+            "style": {
+                "navigationBarTitleText": "",
+                "app-plus": {
+                    "bounce": "none"
+                }
+            }
+        },
+        {
+            "path": "pages/packet/list",
+            "style": {
+                "app-plus": {
+                    "titleNView": {
+                        "navigationBarTitleText": "红包列表",
+                        "buttons": [
+                            {
+                                "text": "\ueb9f",
+                                "fontSize": "20",
+                                "fontSrc": "static/iconfont.ttf"
+                            }
+                        ]
+                    },
+                    "bounce": "none"
+                }
+            }
+        },
+        {
+            "path": "pages/mine/index",
+            "style": {
+                "navigationBarBackgroundColor": "#71BFF5",
+                "navigationBarTitleText": "",
+                "navigationBarTextStyle": "white",
+                "app-plus": {
+                    "bounce": "none"
+                }
+            }
+        },
+        {
+            "path": "pages/search/friend",
+            "style": {
+                "navigationBarTitleText": "添加好友",
+                "app-plus": {
+                    "bounce": "none"
+                }
+            }
+        },
+        {
+            "path": "pages/search/group",
+            "style": {
+                "navigationBarTitleText": "添加群聊",
+                "app-plus": {
+                    "bounce": "none"
+                }
+            }
+        },
+        {
+            "path": "pages/index/index",
+            "style": {
+                "navigationBarTitleText": "聊天",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "app-plus": {
+                    "titleNView": {
+                        "buttons": [
+                            {
+                                "text": "\ue8e1",
+                                "fontSize": "20",
+                                "fontSrc": "static/iconfont.ttf",
+                                "name": "add"
+                            }
+                        ]
+                    },
+                    "bounce": "none"
+                }
+            }
+        },
+        {
+            "path": "pages/mine/bag",
+            "style": {
+                "navigationBarTitleText": "钱包",
+                "app-plus": {
+                    "bounce": "none"
+                }
+            }
+        },
+        {
+            "path": "pages/mine/recharge",
+            "style": {
+                "navigationBarTitleText": "充值",
+                "app-plus": {
+                    "bounce": "none"
+                }
+            }
+        },
+		{
+		    "path": "pages/mine/cash",
+		    "style": {
+		        "navigationBarTitleText": "提现",
+		        "app-plus": {
+		            "bounce": "none"
+		        }
+		    }
+		},
+        {
+            "path": "pages/mine/withdraw",
+            "style": {
+                "navigationBarTitleText": "提现",
+                "app-plus": {
+                    "bounce": "none"
+                }
+            }
+        },
+        {
+            "path": "pages/mine/settings",
+            "style": {
+                "navigationBarTitleText": "设置",
+                "app-plus": {
+                    "bounce": "none"
+                }
+            }
+        },
+        {
+            "path": "pages/web/index",
+            "style": {
+                "navigationBarTitleText": "",
+                "app-plus": {
+                    "bounce": "none"
+                }
+            }
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "backgroundColor": "#FFFFFF"
+    },
+    "tabBar": {
+        "color": "#7A7E83",
+        "selectedColor": "#1296db",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "static/tabbar/hh.png",
+                "selectedIconPath": "static/tabbar/hh1.png",
+                "text": "消息"
+            },
+            {
+                "pagePath": "pages/contacts/index",
+                "iconPath": "static/tabbar/txl.png",
+                "selectedIconPath": "static/tabbar/txl1.png",
+                "text": "通讯录"
+            },
+            {
+                "pagePath": "pages/faxian/index",
+                "iconPath": "static/tabbar/fx.png",
+                "selectedIconPath": "static/tabbar/fx1.png",
+                "text": "发现"
+            },
+            {
+                "pagePath": "pages/mine/index",
+                "iconPath": "static/tabbar/wd.png",
+                "selectedIconPath": "static/tabbar/wd1.png",
+                "text": "我的"
+            }
+        ]
+    },
+    "condition" : { //模式配置，仅开发期间生效
+        "current": 0, //当前激活的模式(list 的索引项)
+        "list": [
+            {
+                "name": "", //模式名称
+                "path": "", //启动页面，必选
+                "query": "" //启动参数，在页面的onLoad函数里面得到
+            }
+        ]
+    }
+}
